@@ -267,20 +267,20 @@ const buildClueSequence = (name) => [
     emoji: '🙄',
     accent: 'from-amber-400 via-orange-400 to-pink-500',
     headline: 'Wait... First Let Us Check Your Daily "Keu Amake Bojhe na" Count!',
-    subtext: `Scientists recently studied a person whose top 3 daily dialogues are: "Dhur, kichu bhallage na!", "Amake keo bhalobashe na!", and "Ektu ghumabo, keu amake bojhe na!" Every single satellite pointed straight to ${name}'s room.`,
+    subtext: `Scientists recently studied a person whose top 4 daily dialogues are: "Dhur, kichu bhallage na!", "Amake keo bhalobashe na!", and "Amr superpower harie jacche , keu bojhe na amai!" Every single satellite pointed straight to ${name}'s room.`,
     bengaliTag: '"Khete dile shute chay, ar shute dile ghumer ghore natok kore!" 😂',
     cta: 'Haha Sotti! Next Clue Dekhao 👉',
   },
   {
     id: 2,
     code: 'LADY-BYOMKESH-FILES // LEVEL-03',
-    badge: '2:00 AM Thriller & Suspense Addict 🕵️‍♀️🍿',
+    badge: 'Thriller & Ulto Palta Love Story Addict 🕵️‍♀️🍿',
     bpm: 112,
     emoji: '🕵️‍♀️',
     accent: 'from-purple-400 via-indigo-400 to-rose-400',
-    headline: 'Hold On! Is This a Birthday or a Netflix Murder Mystery?',
-    subtext: `Normal people watch cute romantic movies to relax. Meanwhile, ${name} sits in the dark at 2:00 AM watching psycho-thrillers, murder mysteries, and suspense web-series—acting like she is Lady Byomkesh Bakshi or Feluda's younger sister!`,
-    bengaliTag: '"Cinema-r prothom 10 minute dekhei bole dey—Ei loktai ashol khuni, ami likhe dicchi!" 🔍🎬',
+    headline: 'Hold On! Is This a Netflix Murder Mystery or a faltu love story?',
+    subtext: `Normal people watch cute romantic movies to relax. Meanwhile, ${name} sits to watch those movies to keep her mode off or sometimes in the dark at 2:00 AM watching psycho-thrillers, murder mysteries, and suspense web-series—acting like she is Lady Byomkesh Bakshi or Eken Babur bon!`,
+    bengaliTag: '"Saradin faltu love story dekhe mon kharap kre thakbo!!!" 🔍🎬',
     cta: 'Plot Twist Decode Koro 🎬',
   },
   {
@@ -593,7 +593,7 @@ export default function App() {
   const [friendName, setFriendName] = useState('Potterrrrr');
   const [enemyNickname, setEnemyNickname] = useState('Your #1 Sworn Enemy 😈');
   const [customNote, setCustomNote] = useState(
-    'Happy 22nd Birthday Madam! Even though you treat me like your #1 Sworn Enemy and threaten me with scary injections, I am secretly super proud of the compassionate, hardworking Nurse you are. All the best for your VERY FIRST JOB starting in just 2 days—shukher din shesh, ebar prothom salary-r treat-ta ready rakhis!'
+    'Happy 22nd Birthday Madam! Even though you treat me like your #1 Sworn Enemy and threaten me with scary injections, I am secretly super proud of the compassionate, hardworking Nurse you are. All the best for your VERY FIRST JOB starting in just 2 days—shukher din shesh!!!'
   );
   const [workplaceName, setWorkplaceName] = useState('Kothari Medical Center (Starting in 2 Days!)');
 
@@ -1004,7 +1004,7 @@ export default function App() {
 
                       <div className="grid grid-cols-3 gap-2 text-center text-[11px] font-mono pt-1">
                         <div className="bg-slate-900/90 p-2 rounded-lg border border-white/5">
-                          <div className="text-amber-300 font-bold">"Ektu Ghumabo"</div>
+                          <div className="text-amber-300 font-bold">"Amr superpower harie jacche"</div>
                           <div className="text-slate-400">14x / Day</div>
                         </div>
                         <div className="bg-slate-900/90 p-2 rounded-lg border border-white/5">
@@ -1043,7 +1043,7 @@ export default function App() {
                       <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1">
                         {[
                           { id: 'butler', label: '🕵️‍♀️ The Innocent Side-Character in Ep 1' },
-                          { id: 'ghost', label: '👻 Late-Night Thriller Ghost' },
+                          { id: 'ghost', label: '👻 Faltu love story dekhar Ghost' },
                           { id: 'enemy', label: '😈 Your #1 Sworn Enemy (Plot Twist!)' },
                         ].map((item) => (
                           <button
@@ -1062,7 +1062,7 @@ export default function App() {
 
                       {thrillerSuspect && (
                         <div className="bg-purple-500/15 border border-purple-400/30 rounded-xl p-3 text-xs text-purple-200">
-                          <strong>MithunDa / Lady Feluda Verdict:</strong> "Ami toh prothom scene dekhei bolechilam!" 😂 Yes! Even Hollywood thriller directors are scared of {friendName}'s overthinking brain!
+                          <strong>Lady Feluda Verdict:</strong> "Ami toh prothom scene dekhei bolechilam!" 😂 Yes! Even Hollywood thriller directors are scared of {friendName}'s overthinking brain!
                         </div>
                       )}
                     </div>
@@ -1217,7 +1217,7 @@ export default function App() {
                       </div>
 
                       <div className="text-center text-xs text-pink-200 bg-pink-500/10 border border-pink-400/20 rounded-xl p-2.5">
-                        🤭 <strong>Blushing Alert:</strong> Look at her smiling! Jokes apart, becoming an independent <em>"Chakri-wali Boro Lok Nurse Didimoni"</em> in 2 days suits you! (First salary-r Biryani treat is mandatory!)
+                        🤭 <strong>Blushing Alert:</strong> Look at her smiling! Jokes apart, becoming an independent <em>"Chakri-wali Boro Lok Nurse Didimoni"</em> in 2 days suits you! (Now buy as many makeup kits 🤭 )
                       </div>
                     </div>
                   )}
@@ -1286,11 +1286,15 @@ export default function App() {
               <LivePulseMonitor bpm={135} step={6} isRevealed={true} />
 
               <div className="p-5 sm:p-8 text-center">
-                {/* Double Milestone Badges */}
+                {/* Triple Milestone Badges */}
                 <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
                   <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-gradient-to-r from-pink-500/20 via-amber-500/20 to-teal-500/20 border border-pink-400/40 text-pink-200 text-xs font-bold uppercase tracking-wider">
                     <Crown className="w-3.5 h-3.5 text-amber-300" />
                     Chapter 22 Unlocked • Certified Nurse Icon 🩺
+                  </div>
+                  <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-gradient-to-r from-amber-400/20 via-yellow-300/20 to-amber-500/20 border border-amber-400/40 text-amber-200 text-xs font-bold uppercase tracking-wider">
+                    <Award className="w-3.5 h-3.5 text-amber-300" />
+                    Batch Topper! 🏆
                   </div>
                   <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-200 text-xs font-bold uppercase tracking-wider">
                     <Briefcase className="w-3.5 h-3.5 text-emerald-300" />
@@ -1304,7 +1308,7 @@ export default function App() {
                     HAPPY 22nd BIRTHDAY,
                   </span>
                   <span className="block mt-1 bg-gradient-to-r from-teal-300 via-white to-pink-300 bg-clip-text text-transparent">
-                    NURSE {friendName.toUpperCase()}! 🎂🩺
+                    {friendName.toUpperCase()}! 🎂🩺
                   </span>
                 </h1>
 
@@ -1313,10 +1317,10 @@ export default function App() {
                 </p>
 
                 {/* New Job in 2 Days Spotlight Banner */}
-                <div className="mt-3 inline-flex items-center gap-2 bg-gradient-to-r from-teal-500/15 via-emerald-500/15 to-cyan-500/15 border border-teal-400/30 rounded-2xl px-4 py-2 text-xs sm:text-sm text-teal-200">
+                <div className="mt-3 inline-flex items-center gap-2 bg-gradient-to-r from-pink-500/15 via-amber-500/15 to-teal-500/15 border border-pink-400/30 rounded-2xl px-4 py-2 text-xs sm:text-sm text-teal-200">
                   <Calendar className="w-4 h-4 text-teal-300 shrink-0" />
                   <span>
-                    Double Dhamaka: Turning <strong>22 Today</strong> & Starting Your <strong>1st Job in 2 Days</strong> at <strong>{workplaceName}</strong>! 🏥✨
+                    Triple Dhamaka: Turning <strong>22 Today</strong>, <strong>Batch Topper! 🏆</strong> & Starting Your <strong>1st Job in 2 Days</strong> at <strong>{workplaceName}</strong>! 🏥✨
                   </span>
                 </div>
 
@@ -1399,14 +1403,30 @@ export default function App() {
                         })}
                       </div>
 
-                      {/* Cake Top Tier with Nurse Cross */}
+                      {/* Cake Top Tier - 22 Candles */}
                       <div className="w-52 h-12 bg-gradient-to-r from-pink-400 via-rose-400 to-pink-400 rounded-t-2xl border-t-4 border-pink-200 shadow-inner flex items-center justify-center relative">
+                        <div className="px-3 py-0.5 rounded-full bg-white text-rose-600 font-black text-xs tracking-wider shadow flex items-center gap-1">
+                          <span>2</span> <span>2</span>
+                        </div>
+                      </div>
+
+                      {/* Cake Middle Tier - BATCH TOPPER! 🏆 */}
+                      <div className="w-60 h-14 bg-gradient-to-r from-amber-400 via-yellow-300 to-amber-500 rounded-xl border-t-4 border-amber-200 shadow-lg flex items-center justify-center relative mx-auto">
+                        <div className="px-4 py-1 rounded-full bg-white text-amber-700 font-black text-xs tracking-wider shadow flex items-center gap-2">
+                          <Crown className="w-3.5 h-3.5 text-amber-500" />
+                          BATCH TOPPER! 🏆
+                          <Crown className="w-3.5 h-3.5 text-amber-500" />
+                        </div>
+                      </div>
+
+                      {/* Cake Nurse Tier */}
+                      <div className="w-56 h-12 bg-gradient-to-r from-pink-400 via-rose-400 to-pink-400 rounded-xl border-t-4 border-pink-200 shadow-inner flex items-center justify-center relative mx-auto">
                         <div className="px-3 py-0.5 rounded-full bg-white text-rose-600 font-black text-xs tracking-wider shadow flex items-center gap-1">
                           <span>✚</span> DIDIMONI • 22 <span>✚</span>
                         </div>
                       </div>
 
-                      {/* Cake Base Tier */}
+                      {/* Cake Base Tier - 1st Job */}
                       <div className="w-64 h-14 bg-gradient-to-r from-teal-500 via-emerald-500 to-teal-500 rounded-b-2xl border-t-4 border-teal-200 shadow-2xl flex items-center justify-around px-4">
                         <HeartPulse className="w-4 h-4 text-white/90" />
                         <span className="text-[11px] font-mono font-bold text-slate-950 bg-white/90 px-2.5 py-0.5 rounded-full">
@@ -1463,7 +1483,7 @@ export default function App() {
                         { label: '🩺 Lucky Stethoscope & Pocket Pen', note: 'Ready for Day-1 Ward Rounds!' },
                         { label: '💉 Sweet Smile + Boss Didimoni Attitude', note: 'Patients love her, friends fear her!' },
                         { label: '⏰ 5:30 AM Alarm (No More 11 AM Ghum!)', note: 'Shukher din officially shesh!' },
-                        { label: '🍛 First Salary Treat Promise for Enemy', note: 'Mandatory Biryani treaty signed!' },
+                        { label: '🍛 Enjoy your job life and travel as many you can', note: 'Just Enjoy and chilllll!' },
                       ].map((item, i) => (
                         <button
                           key={i}
@@ -1521,10 +1541,16 @@ export default function App() {
                           <strong>Zero "Bhallage Na" Allowed Today:</strong> Only big smiles, birthday glow, and main-character energy!
                         </span>
                       </div>
+                       <div className="flex items-start gap-2">
+                        <Check className="w-4 h-4 text-green-400 shrink-0 mt-0.5" />
+                        <span>
+                          <strong>1st Salary Biryani Clause:</strong> Once your first nursing paycheck hits your bank account, your #1 Enemy gets a royal treat!
+                        </span>
+                      </div>
                       <div className="flex items-start gap-2">
                         <Check className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
                         <span>
-                          <strong>1st Salary Biryani Clause:</strong> Once your first nursing paycheck hits your bank account, your #1 Enemy gets a royal treat!
+                          <strong>Full Enjoyment Clause:</strong> Just Be Chill and Enjoyy life fully, Don't listen to people those who doesn't matter to you like me!
                         </span>
                       </div>
                     </div>
